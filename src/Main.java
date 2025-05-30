@@ -6,7 +6,7 @@ public class Main{
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();  // Read user input as a string
-        System.out.print("Enter your age: ");
+        System.out.print("Enter your age please: ");
         int age = scanner.nextInt();  // Read user input as an integer
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
     }
